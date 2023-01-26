@@ -1,0 +1,52 @@
+body  {
+    background-color: skyblue;
+}
+
+header p  {
+    font-style: inherit;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header p:hover  {
+    background-color:black ;
+    color: white;
+}
+
+p  {
+    font-size: 1.5em;
+    color: beige;
+    text-align: center;
+}
+
+h2  {
+    color: beige;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+img  {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1  {
+    width: 40%;
+    margin: 0 auto;text-align: center;
+    color: beige;
+}
+
+
+h4  {
+    width: 50%;
+    margin: 0 auto;
+    color: beige;
+    text-align: center;
+}
