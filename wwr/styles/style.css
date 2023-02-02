@@ -1,6 +1,19 @@
+@import url(https://www.cssfontstack.com/Brush-Script-MT);
+
 body {
     background-color: #ccc; 
+    font-family: 'Brush-Script-MT', 'Pacifico', 'Amatic SC';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+.home-title {
+    margin-top: 10px;
+    font-family: 'Brush-Script-MT', 'Pacifico', 'Amatic SC';
+    font-size: 2em;
+}
+
 header {
     background-color:skyblue;
 }
@@ -9,9 +22,17 @@ nav a:hover {
     background-color: steelblue;
 }
 
+.rivers-card, .camping-card, .rapids-card  {
+    margin: 200px 0;
+}
+
 .book, .join {
-    background-color: #ccc;
+    margin-top: 50px;
+    background-color: yellow;
+    font-size: 18;
     text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
 
 }
 
@@ -20,17 +41,22 @@ nav a:hover {
     color: #ccc;
 }
 
-
-
-
-.book :hover {
-    background-color: black;
-    color: #ccc;
+.card-img  {
+    border: 10px skyblue;
 }
+
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+
+
 #content  {
     max-width: 1600px;
-    width: 80%;
     margin: 0 auto;
+    
 }
 
 nav a {
@@ -38,6 +64,17 @@ nav a {
     color: cornflowerblue;
     text-decoration: none;
 }
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 80px;
+}
+
 
 #hero-msg h1, #hero-msg h4  {
     text-align: center;
@@ -49,14 +86,21 @@ nav a {
 
 #background  {
     height: 725px;
-    background-color: #ccc;
+    background-color: whitesmoke;
+}
+
+.mountains  {
+    width: 50%;
 }
 
 .msg  {
     background-color: #ccc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer  {
+    margin-top: 200px;
     background-color: skyblue;
     color: palegreen;
 }
@@ -64,6 +108,7 @@ footer  {
 footer a  {
     color: aqua;
     text-decoration: none;
+    padding: 25px 50px;
 }
 
 
@@ -73,6 +118,8 @@ footer a  {
 
 .msg p  {
     color: rgb(15, 66, 66);
+    font-size: 1.2em;
+    padding-bottom: 15px;
 }
 
 
@@ -84,10 +131,6 @@ h4  {
     color: rgb(48, 56, 56);
 }
 
-footer a:hover  {
-    color: whitesmoke;
-    background-color: slateblue;
-}
 
 .logo  {
     width: 80px;
@@ -107,4 +150,13 @@ footer p a:hover {
 
 nav a  {
     font-size: 1.5em;
+    padding: 35px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo-link  {
+    padding-top: 5px;
 }
