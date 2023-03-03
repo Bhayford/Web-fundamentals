@@ -75,7 +75,79 @@ main section img {
     box-sizing: border-box;
 }
 
+.blog-grid {
+ margin: 0 auto;
 
+
+}
+
+.blog-pic  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    grid-column: 1/6;
+    grid-row: 1/11;
+    z-index: -1;
+    
+}
+
+.company  {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 11/12;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.booking  {
+    padding: 10px;
+    width: 100%;
+    line-height: 1.5em;
+    grid-column: 7/11;
+    grid-row: 1/2;
+}
+
+.sure  {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 6/11;
+    grid-row: 2/3;
+}
+
+.highlights  {
+    padding: 10px;
+    width: 100%;
+    grid-column: 7/11  ;
+    grid-row: 3/4;
+}
+
+.high  {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 6/11  ;
+    grid-row: 4/7;
+
+}
+
+.encounter  {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 7/11  ;
+    grid-row: 7/9;
+
+}
+
+.trip  {
+    padding: 10px;
+    margin: 5px auto;
+    width: 100%;
+    grid-column: 6/11  ;
+    grid-row: 9/11;
+
+}
 
 
 #content  {
